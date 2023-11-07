@@ -46,10 +46,23 @@ pnpm install
 npm install
 ```
 
+#### Create a PostgreSQL database
+
+```bash
+createdb petri
+```
+
 #### Set up the database
 
 ```bash
 npm run setup
+```
+
+#### Get the GraphQL schema and documents
+
+```bash
+cd petri-graph
+git submodule init
 ```
 
 #### Generate the GraphQL schema

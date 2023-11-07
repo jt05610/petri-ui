@@ -27,13 +27,12 @@ model Parameter {
   createdAt  DateTime @default(now())
   updatedAt  DateTime @updatedAt
   expression String
-
-  User     User?   @relation(fields: [userId], references: [id])
-  userId   String?
-  Device   Device? @relation(fields: [deviceId], references: [id])
-  deviceId String?
-  Run      Run?    @relation(fields: [runId], references: [id])
-  runId    String?
+  User       User?    @relation(fields: [userId], references: [id])
+  userId     String?
+  Device     Device?  @relation(fields: [deviceId], references: [id])
+  deviceId   String?
+  Run        Run?     @relation(fields: [runId], references: [id])
+  runId      String?
 }
 
 model User {

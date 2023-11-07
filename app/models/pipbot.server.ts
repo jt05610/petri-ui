@@ -2,7 +2,7 @@ import invariant from "tiny-invariant";
 import type { PipBotDesignInput } from "~/models/pipbot";
 import { PipBotDesignInputSchema } from "~/models/pipbot";
 
-invariant(process.env.PIPBOT_URL, "Experiment URL must be set");
+invariant(process.env.PIPBOT_URL, "PIPBOT_URL must be set");
 
 const PIPBOT_URL = process.env.PIPBOT_URL;
 
