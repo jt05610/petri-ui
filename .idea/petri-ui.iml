@@ -9,10 +9,10 @@
       <excludeFolder url="file://$MODULE_DIR$/build" />
       <excludeFolder url="file://$MODULE_DIR$/.cache" />
       <excludeFolder url="file://$MODULE_DIR$/.github" />
-      <excludeFolder url="file://$MODULE_DIR$/prisma/migrations" />
       <excludeFolder url="file://$MODULE_DIR$/remix.init" />
       <excludeFolder url="file://$MODULE_DIR$/public/build" />
       <excludeFolder url="file://$MODULE_DIR$/node_modules/@prisma/client/node_modules" />
+      <excludeFolder url="file://$MODULE_DIR$/__prisma/migrations" />
     </content>
     <content url="file://$MODULE_DIR$/node_modules/.pnpm/@prisma+client@5.0.0" />
     <content url="file://$MODULE_DIR$/node_modules/.pnpm/@prisma+client@5.0.0_prisma@5.0.0" />
